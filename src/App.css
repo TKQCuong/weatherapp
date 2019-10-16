@@ -1,22 +1,41 @@
-.App {
-  text-align: center;
+body {
+  background-image: url("https://images.wallpaperscraft.com/image/city_night_panorama_117682_1920x1080.jpg");
+  background-size: 1000px;
+}
+.rowAdjust {
+  padding-bottom: 8.5rem;
 }
 
-.App-logo {
-  height: 40vmin;
+.text-success {
+  color: white!important;
+  font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.imageAdjust {
+  height: 580px;
+}
+
+.sweet-loading {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.main-content {
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+.text-muted {
+  text-transform: capitalize;
+  color: black;
+  font-weight: 500;
+  
+}
+
+.adjustCard {
+  text-align: center;
 }
