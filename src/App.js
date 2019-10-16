@@ -55,12 +55,14 @@ function App() {
   } else {
     return (
       <div className="main-content">
+        <h1>HO CHI MINH CITY, VN</h1>
         <CardDeck style={{ width: '50rem' }}>
           <Card className="adjustCard">
             {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
             <Card.Body>
               <Card.Title><Moment format="D MMM YYYY">{weather && weather.list[15].dt_txt}</Moment></Card.Title>
-              <Card.Text><b>{weather && weather.list[15].main.temp_max}°</b> <small>{weather && weather.list[15].main.temp_min}°</small></Card.Text>
+              <Card.Text className="card-text"><b>{weather && weather.list[15].main.temp_max}°</b> <small>{weather && weather.list[15].main.temp_min}°</small></Card.Text>
+              <Card.Text className="max-min">Max Min</Card.Text>
             </Card.Body>
             <Card.Footer>
               <small className="text-muted">{weather && weather.list[15].weather[0].description}</small>
@@ -70,7 +72,8 @@ function App() {
             {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
             <Card.Body>
               <Card.Title><Moment format="D MMM YYYY">{weather && weather.list[23].dt_txt}</Moment></Card.Title>
-              <Card.Text><b>{weather && weather.list[23].main.temp_max}°</b> <small>{weather && weather.list[23].main.temp_min}°</small></Card.Text>
+              <Card.Text className="card-text"><b>{weather && weather.list[23].main.temp_max}°</b> <small>{weather && weather.list[23].main.temp_min}°</small></Card.Text>
+              <Card.Text className="max-min">Max Min</Card.Text>
             </Card.Body>
             <Card.Footer>
               <small className="text-muted">{weather && weather.list[23].weather[0].description}</small>
@@ -80,7 +83,8 @@ function App() {
             {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
             <Card.Body>
               <Card.Title><Moment format="D MMM YYYY">{weather && weather.list[31].dt_txt}</Moment></Card.Title>
-              <Card.Text><b>{weather && weather.list[31].main.temp_max}°</b> <small>{weather && weather.list[31].main.temp_min}°</small></Card.Text>
+              <Card.Text className="card-text"><b>{weather && weather.list[31].main.temp_max}°</b> <small>{weather && weather.list[31].main.temp_min}°</small></Card.Text>
+              <Card.Text className="max-min">Max Min</Card.Text>
             </Card.Body>
             <Card.Footer>
               <small className="text-muted">{weather && weather.list[31].weather[0].description}</small>
@@ -93,7 +97,8 @@ function App() {
             {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
             <Card.Body>
               <Card.Title><Moment format="LT" interval={30000}>{weather && weather.list[0].dt_txt}</Moment></Card.Title>
-              <Card.Text><b>{weather && weather.list[0].main.temp_max}°</b> <small>{weather && weather.list[0].main.temp_min}°</small></Card.Text>
+              <Card.Text className="card-text"><b>{weather && weather.list[0].main.temp_max}°</b> <small>{weather && weather.list[0].main.temp_min}°</small></Card.Text>
+              <Card.Text className="max-min">Max Min</Card.Text>
             </Card.Body>
             <Card.Footer>
               <small className="text-muted">{weather && weather.list[0].weather[0].description}</small>
@@ -103,7 +108,8 @@ function App() {
             {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
             <Card.Body>
               <Card.Title><Moment format="LT" interval={30000}>{weather && weather.list[1].dt_txt}</Moment></Card.Title>
-              <Card.Text><b>{weather && weather.list[1].main.temp_max}°</b> <small>{weather && weather.list[1].main.temp_min}°</small></Card.Text>
+              <Card.Text className="card-text"><b>{weather && weather.list[1].main.temp_max}°</b> <small>{weather && weather.list[1].main.temp_min}°</small></Card.Text>
+              <Card.Text className="max-min">Max Min</Card.Text>
             </Card.Body>
             <Card.Footer>
               <small className="text-muted">{weather && weather.list[1].weather[0].description}</small>
@@ -113,7 +119,8 @@ function App() {
             {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
             <Card.Body>
               <Card.Title><Moment format="LT" interval={30000}>{weather && weather.list[2].dt_txt}</Moment></Card.Title>
-              <Card.Text><b>{weather && weather.list[2].main.temp_max}°</b> <small>{weather && weather.list[2].main.temp_min}°</small></Card.Text>
+              <Card.Text className="card-text"><b>{weather && weather.list[2].main.temp_max}°</b> <small>{weather && weather.list[2].main.temp_min}°</small></Card.Text>
+              <Card.Text className="max-min">Max Min</Card.Text>
             </Card.Body>
             <Card.Footer>
               <small className="text-muted">{weather && weather.list[2].weather[0].description}</small>

@@ -1,6 +1,6 @@
 body {
   background-image: url("https://images.wallpaperscraft.com/image/city_night_panorama_117682_1920x1080.jpg");
-  background-size: 1000px;
+  background-size: 1300px;
 }
 .rowAdjust {
   padding-bottom: 8.5rem;
@@ -26,7 +26,7 @@ body {
 
 .main-content {
   padding-left: 20%;
-  padding-top: 5%;
+  padding-top: 5.7%;
 }
 
 .text-muted {
@@ -38,4 +38,31 @@ body {
 
 .adjustCard {
   text-align: center;
+}
+
+.main-content h1 {
+  padding-left: 18%;
+  margin-top: -2%;
+  margin-bottom: 4%;
+  font-family: Georgia, serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: white;
+  font-weight: 700;
+  text-decoration: solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+}
+
+.card-text {
+  word-spacing: 60px;
+  margin-bottom: -1px;
+  padding-top: 10px;
+}
+
+.max-min {
+  word-spacing: 73px;
+  color: green;
 }
