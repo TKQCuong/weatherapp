@@ -39,7 +39,7 @@ function App() {
   const getWeather = async (lon, lat) => {
     const api = "e768cc519587b9f68f740a8c273822d6";
     const response = await fetch(
-      `http://api.openweathermap.org/data/2.5/forecast?q=Thanh pho Ho Chi Minh,VN&mode=xml,lat=${lat}&lon=${lon}&APPID=${api}&units=metric`
+      `https://api.openweathermap.org/data/2.5/forecast?q=Thanh pho Ho Chi Minh,VN&mode=xml,lat=${lat}&lon=${lon}&APPID=${api}&units=metric`
     );
     const data = await response.json();
     setWeather(data);
